@@ -1,0 +1,11 @@
+# Normalize line endings: store LF in the repo, check out natively
+* text=auto eol=lf
+
+*.py   text diff=python
+*.md   text diff=markdown
+*.yml  text
+*.toml text
+
+*.pdf  binary
+*.png  binary
+*.jpg  binary
